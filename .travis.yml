@@ -6,5 +6,6 @@ script: mvn test
 
 deploy:
   provider: heroku
+  app: cicd
   api_key: 594e6c0b-4faf-4432-aeee-2da98c07ceef
 
