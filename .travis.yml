@@ -3,3 +3,8 @@ language: java
 
 #build software 
 script: mvn test
+
+deploy:
+  provider: heroku
+  app: your-app-name # optional if it's the same as your repo name
+  api_key: "YOUR API TOKEN"
